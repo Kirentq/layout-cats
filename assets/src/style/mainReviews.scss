@@ -1,0 +1,90 @@
+.mainReviews{
+    padding: 152px 0px 152px 98px;
+    position: relative;
+    &__img{
+        position: absolute;
+        top: 1;
+        right: 1;
+        z-index: 1;
+    }
+    & h1{
+        text-align: center;
+        font-family: "Rubik-Bold";
+        font-size: 36px;
+        line-height: 43px;
+        margin: 0px 0px 70px 0px;
+    }
+}
+.mainReviewsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    &__Block{
+        & img{
+            width: 21px;
+        }
+        & p{
+            font-family: "Lato-Medium";
+            width: 92%;            
+            font-size: 16px;
+            line-height: 22px;
+        }
+        z-index: 999;
+        width: 470px;
+        padding: 35px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+        border-radius: 8px;
+        &--name{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 25px;
+            margin-left: 28px;
+            & span{
+            font-family: "Lato-Regular";
+            font-size: 14px;
+            line-height: 17px;
+            color: #848484;
+            }
+        }
+    }
+    &__blockButtons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &--empty{
+            flex-basis: 10%;
+        }
+        &--inputs > input{
+            margin: 0px 12px 0px 0px;
+            background: #E1E1E1;
+            border: none;
+            border-radius: 10px;
+            width: 12px;
+            height: 12px;
+        }
+        &--inputs input:first-child{
+            background: #FAC663;
+        }
+        &--arrows > button{
+            background: #fff;
+            color: #FF7236;
+            font-size: 30px;
+            cursor: pointer;
+            box-shadow: 0px 2px 12px rgba(173, 152, 143, 0.25);
+            border-radius: 100%;
+            width: 60px;
+            height: 60px;
+            border: none;
+        }
+        &--arrows > button:first-child{
+            margin: 0px 10px 0px 0px;
+        }
+    }
+}

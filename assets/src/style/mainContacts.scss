@@ -1,0 +1,38 @@
+.mainContactsContainer{
+    display: flex;
+}
+.mainContactsContainerInfoContainer{
+    background: #FAC663;
+    width: 42%;
+    padding: 70px 111px 76px 198px;
+    & h1{
+        font-family: "Rubik-Bold";
+        font-size: 36px;
+        line-height: 43px;
+        margin-bottom: 50px;
+    }
+    &__block{
+        width: 227px;
+        margin-bottom: 35px;
+        & h2{
+            font-family: "Lato-Bold";
+            font-size: 16px;
+            line-height: 19px;
+            margin-bottom: 15px;
+        }
+        & p{
+            font-family: "Lato-Regular";
+            font-size: 16px;
+            line-height: 19px;
+        }
+        &--social a:not(:last-child){
+            margin-right: 20px;
+        }
+    }
+}
+.mainContactsContainerMap{
+    width: 58%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

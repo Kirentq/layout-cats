@@ -1,0 +1,21 @@
+.header{
+    &__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 98px 12px 98px;
+    }
+    &__img{
+        width: 63px;
+    }
+    .headerMenu{
+        &__link{
+            font-family: "Lato-Semibold";
+            line-height: 19px;
+            font-size: 16px;
+        }
+        &__link:not(:last-child){
+            margin-right: 30px;
+        }
+    }
+}
