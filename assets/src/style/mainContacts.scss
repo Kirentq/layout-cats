@@ -4,7 +4,7 @@
 .mainContactsContainerInfoContainer{
     background: #FAC663;
     width: 42%;
-    padding: 70px 111px 76px 198px;
+    padding: 70px 0px 76px 198px;
     & h1{
         font-family: "Rubik-Bold";
         font-size: 36px;
@@ -13,7 +13,7 @@
     }
     &__block{
         width: 227px;
-        margin-bottom: 35px;
+        margin-bottom: 10px;
         & h2{
             font-family: "Lato-Bold";
             font-size: 16px;
@@ -34,5 +34,13 @@
     width: 58%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    position: relative;
+    &_map-cat{
+        position: absolute;
+        left: 240px;
+        top: 236px;
+    }
+    &_map{
+        height: 580px;
+    }
 }
